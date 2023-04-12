@@ -2,10 +2,8 @@ import {useState} from 'react';
 import ReactDOM from 'react-dom/client';
 
 function ContactForm() {
-    return (
-        function MyForm() {
-            const [inputs, setInputs] = useState({});
 
+            const [inputs, setInputs] = useState({});
             const handleChange = (event) => {
                 const name = event.target.name;
                 const value = event.target.value;
@@ -18,29 +16,34 @@ function ContactForm() {
             }
             return (
                 <form onSubmit={handleSubmit}>
-                    <label>Enter your name:
+                    <label>Your name:
                         <input
                             type="text"
-                            name="username"
-                            value={inputs.username || ""}
+                            name="name"
+                            value={inputs.name || ""}
                             onChange={handleChange}
                         />
                     </label>
-                    <label>Enter your age:
+                    <label>Email address:
                         <input
-                            type="number"
-                            name="age"
-                            value={inputs.age || ""}
+                            type="text"
+                            name="email"
+                            value={inputs.email || ""}
+                            onChange={handleChange}
+                        />
+                    </label>
+                    <label>Message:
+                        <input
+                            type="text"
+                            name="message"
+                            value={inputs.message || ""}
                             onChange={handleChange}
                         />
                     </label>
                     <input type="submit" />
                 </form>
-            )
+            );
         }
-    );
-
-}
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(<ContactForm />);

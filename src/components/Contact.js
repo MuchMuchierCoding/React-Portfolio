@@ -2,7 +2,7 @@ import ContactForm from './ContactForm';
 
 function Contact() {
     return (
-        <div>
+        <div className='Contact'>
             <a>amandapaul1223@gmail.com</a>
             <ContactForm />
         </div>

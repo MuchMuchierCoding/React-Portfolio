@@ -8,7 +8,7 @@ import Project6 from './Project6';
 
 function Projects() {
     return (
-        <div>
+        <div className='Projects'>
             <Project1 />
             <Project2 />
             <Project3 />
