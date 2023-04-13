@@ -1,9 +1,9 @@
 import Nav from './Nav';
 
-function Header() {
+function Header(props) {
     return (
       <header>
-        <Nav />
+        <Nav setCurrentPage={props.setCurrentPage}/>
       </header>
     );
 }

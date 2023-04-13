@@ -1,8 +1,10 @@
+import Team from '../assets/TeamProfileGenerator.png';
+
 function Project4() {
     return (
         <div>
-            <a href ="">
-            <img src="" alt="Name of Project"></img>
+            <a href ="https://github.com/MuchMuchierCoding/Team-Profile-Generator">
+            <img src={Team} alt="Team Profile Generator" className='ProjectImages'></img>
             </a>
         </div>
     );

@@ -15,7 +15,7 @@ function ContactForm() {
                 alert(inputs);
             }
             return (
-                <form onSubmit={handleSubmit}>
+                <form onSubmit={handleSubmit} className="ContactForm">
                     <label>Your name:
                         <input
                             type="text"

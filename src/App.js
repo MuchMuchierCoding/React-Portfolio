@@ -6,19 +6,20 @@ import Projects from './components/Projects';
 import Contact from './components/Contact';
 import Resume from './components/Resume';
 import Footer from './components/Footer'
-
+import { useState } from 'react';
+import Page from './components/Page';
 
 function App() {
+  const [currentPage, setCurrentPage] = useState('About Me');
+
+
   return (
     <div className="App">
       <div class="background"></div>
       <div class="main">
-      <Header />
+      <Header setCurrentPage={setCurrentPage}/>
       <Hero />
-      <Bio />
-      <Projects />
-      <Contact />
-      <Resume />
+      <Page currentPage={currentPage}/>
       <Footer />
       </div>
     </div>
