@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/React-Portfolio/static/css/main.ee12d203.css",
+    "main.js": "/React-Portfolio/static/js/main.d0adb883.js",
+    "static/js/787.a2cb61a6.chunk.js": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js",
+    "static/media/Amanda.PNG": "/React-Portfolio/static/media/Amanda.ab0b4f94004b99056ab2.PNG",
+    "static/media/TabBackground.jpeg": "/React-Portfolio/static/media/TabBackground.cf7bd4677a96c1585b75.jpeg",
+    "static/media/Employee.png": "/React-Portfolio/static/media/Employee.9ae1e08441431b0e80dd.png",
+    "static/media/TeamProfileGenerator.png": "/React-Portfolio/static/media/TeamProfileGenerator.2ac43b960eb2ba9c3cdb.png",
+    "static/media/Doggy.png": "/React-Portfolio/static/media/Doggy.1f5b2c9780ba5623b421.png",
+    "static/media/twitter-logo.png": "/React-Portfolio/static/media/twitter-logo.746e3e8173ef03ba9616.png",
+    "static/media/APResume2023.pdf": "/React-Portfolio/static/media/APResume2023.252538ce2aff51895cd0.pdf",
+    "static/media/WorkDayScheduler.png": "/React-Portfolio/static/media/WorkDayScheduler.0fbe399a8a923da376d4.png",
+    "static/media/DnD.png": "/React-Portfolio/static/media/DnD.3f1b146eec0a306c54f8.png",
+    "static/media/Weather.png": "/React-Portfolio/static/media/Weather.89038e8e683f9c3b9834.png",
+    "static/media/blackboard.avif": "/React-Portfolio/static/media/blackboard.2f39900775c82c0372ae.avif",
+    "index.html": "/React-Portfolio/index.html",
+    "main.ee12d203.css.map": "/React-Portfolio/static/css/main.ee12d203.css.map",
+    "main.d0adb883.js.map": "/React-Portfolio/static/js/main.d0adb883.js.map",
+    "787.a2cb61a6.chunk.js.map": "/React-Portfolio/static/js/787.a2cb61a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ee12d203.css",
+    "static/js/main.d0adb883.js"
+  ]
+}
