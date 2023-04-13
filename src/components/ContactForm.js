@@ -15,21 +15,23 @@ function ContactForm() {
                 alert(inputs);
             }
             return (
-                <form onSubmit={handleSubmit} className="ContactForm">
+                <form action="https://formsubmit.co/f85f369c7a8978dd0c9e71b2dbc8ddf1" method="POST" className="ContactForm">
                     <label>Your name:
                         <input
                             type="text"
                             name="name"
                             value={inputs.name || ""}
                             onChange={handleChange}
+                            required
                         />
                     </label>
                     <label>Email address:
                         <input
-                            type="text"
+                            type="email"
                             name="email"
                             value={inputs.email || ""}
                             onChange={handleChange}
+                            required
                         />
                     </label>
                     <label>Message:
@@ -38,6 +40,7 @@ function ContactForm() {
                             name="message"
                             value={inputs.message || ""}
                             onChange={handleChange}
+                            required
                         />
                     </label>
                     <input type="submit" />

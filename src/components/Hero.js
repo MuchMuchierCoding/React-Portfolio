@@ -2,7 +2,7 @@ import Portrait from '../assets/Amanda.PNG'
 
 function Hero() {
     return(
-        <div class="PhotoBackground">
+        <div>
         <img className="Photo" src={Portrait} alt="Photo of Amanda"></img>
         </div>
     );
