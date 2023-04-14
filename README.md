@@ -10,6 +10,7 @@ The React Portfolio is a single-page react application that functions as a portf
 - [Installation](#installation)
 - [Usage](#usage)
 - [Credits](#credits)
+- [Deployed Site](#deployed-site)
 
 
 ## Installation
@@ -22,4 +23,8 @@ Once the user has cloned the repo, the user can edit their new clone and repo to
 
 ## Credits
  
-[Amanda Paul](#https://github.com/MuchMuchierCoding) 
+[Amanda Paul](https://github.com/MuchMuchierCoding) 
+
+## Deployed Site
+
+[Amanda Paul's Portfolio](https://muchmuchiercoding.github.io/React-Portfolio/)
