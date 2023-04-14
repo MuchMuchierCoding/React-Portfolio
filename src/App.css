@@ -185,7 +185,7 @@
   font-family: 'lato';
   background-image: url('./assets/blackboard.avif');
   border: 3px solid #000000;
-} */
+}
 
 p {
   font-size: normal;
@@ -194,7 +194,7 @@ p {
   font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
-ul, li {
+ul li {
   list-style: none;
 }
 

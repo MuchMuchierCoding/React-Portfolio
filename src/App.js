@@ -11,8 +11,8 @@ function App() {
 
   return (
     <div className="App">
-      <div class="background"></div>
-      <div class="main">
+      <div className="background"></div>
+      <div className="main">
       <Header setCurrentPage={setCurrentPage}/>
       <Hero />
       <Page currentPage={currentPage}/>
