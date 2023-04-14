@@ -1,4 +1,36 @@
 
+
+ .Nav {
+  align-items: center;
+  font-family:'helvetica', 'sans-serif';
+  display: flex;
+  justify-content: flex-start;
+  justify-content: space-around;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  background-color: #FFFFFF;
+  opacity: 5;
+}
+
+.Name {
+  font-weight: bolder;
+  font-size: 30px;
+  letter-spacing: 2px;
+
+}
+
+.NavLinks {
+  display: flex;
+  /* justify-content: flex-end; */
+  flex-direction: row;
+  font-size: small;
+  font-weight: bolder;
+  cursor: pointer;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  transform-origin: bottom;
+}
+
 .Nav {
   align-items: center;
   font-family:'helvetica', 'sans-serif';
@@ -111,46 +143,15 @@
             rgba(0, 0, 0, 0.09) 0px -3px 5px;
 }
 
-.ProjectContainers {
-  padding: 20px;
-}
-
 
 .ProjectContainers:hover {
   transform: scale(1.1);
 }
 
-/* .overlay {
-  position: absolute;
-  top:0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #6559DE;
+.ProjectContainers {
+  padding: 20px;
 }
 
-.ProjectContainers:hover .overlay {
-  opacity: .8;
-} */
-
-/* .text {
-  color: white;
-  font-size: x-large;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-  text-transform: uppercase;
-  font-weight: bolder;
-  text-decoration: solid;
-} */
 
 .Contact {
   border-style: dashed;
@@ -189,7 +190,7 @@
   font-family: 'lato';
   background-image: url('./assets/blackboard.avif');
   border: 3px solid #000000;
-}
+} */
 
 p {
   font-size: normal;
@@ -229,7 +230,7 @@ li {
   padding: 20px;
 }
 
-ul li:nth-child(even) a {
+ ul li:nth-child(even) a {
   transform: rotate(4deg);
   position: relative;
   top: 5px;
@@ -259,13 +260,14 @@ ul li:nth-child(5n) a {
   line-height: 40px;
   font-size: larger;
   background-color: #FFFFFF;
-  opacity: .7;
+  opacity: 1;
 }
 
 .ProLogos {
   height: 30px;
   padding: 10px
 }
+
 .ResumeButton:link, .ResumeButton:visited {
   background-color: white;
   color: green;
@@ -383,45 +385,6 @@ ul li:nth-child(5n) a {
   justify-content: center;
   font-size:large;
   font-weight: bold;
-}
+} 
 
 
-
-/* .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
-}
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
-} */
