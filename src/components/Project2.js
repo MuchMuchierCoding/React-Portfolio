@@ -1,11 +1,10 @@
-import Space from '../assets/Spacetastic.png';
+import Space from '../assets/Space.png';
 
 function Project2() {
     return (
         <div className='ProjectContainers'>
             <a href ="https://github.com/sadapannord/science-project">
-            <img src={Space} alt="Spacetastic Science Builder" className='ProjectImages'></img>
-            {/* <div class="overlay"><div class="text">Weather Dashboard</div></div> */}
+            <img src={Space} alt="Space Science Builder" className='ProjectImages'></img>
             </a>
         </div>
     );

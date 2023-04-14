@@ -21,7 +21,6 @@
 
 .NavLinks {
   display: flex;
-  /* justify-content: flex-end; */
   flex-direction: row;
   font-size: small;
   font-weight: bolder;
@@ -35,7 +34,6 @@
   align-items: center;
   font-family:'helvetica', 'sans-serif';
   display: flex;
-  /* justify-content: flex-start; */
   justify-content: space-around;
   padding-bottom: 20px;
   padding-top: 20px;
@@ -52,7 +50,6 @@
 
 .NavLinks {
   display: flex;
-  /* justify-content: flex-end; */
   flex-direction: row;
   font-size: small;
   font-weight: bolder;
@@ -87,8 +84,6 @@
   margin-bottom: 5%;
   margin-top:5%;
   opacity: 5;
-  /* z-index: 9;
-  /* background-color: white;*/
 }
 
 .Photo {
@@ -265,7 +260,7 @@ ul li:nth-child(5n) a {
 
 .ProLogos {
   height: 30px;
-  padding: 10px
+  padding: 10px;
 }
 
 .ResumeButton:link, .ResumeButton:visited {
@@ -338,7 +333,7 @@ ul li:nth-child(5n) a {
   font-size: x-large;
 }
 
-.SkillsHeader p{
+.SkillsHeader p {
   text-align: center;
   display:flex;
   align-items: flex-start;

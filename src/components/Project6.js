@@ -5,7 +5,6 @@ function Project6() {
         <div className='ProjectContainers'>
             <a href ="https://github.com/hannahedwards/dog-daycare">
             <img src={Doggy} alt="Doggy Daycare" className='ProjectImages'></img>
-            {/* <div class="overlay"><div class="text">Doggy Daycare</div></div> */}
             </a>
         </div>
     );
