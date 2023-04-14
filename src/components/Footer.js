@@ -4,6 +4,7 @@ import Github from '../assets/github-mark.png';
 
 function Footer() {
     return (
+        <div>
         <div className="Footer">
             <div>
                 <a href="https://github.com/MuchMuchierCoding" target='_blank' rel="noopener noreferrer">
@@ -20,6 +21,10 @@ function Footer() {
                     <img src={LinkedIn} alt="LinkedIn Logo" className='ProLogos'></img>
                 </a>
             </div>
+        </div>
+        <div>
+        <a href="" target='_blank' rel="noopener noreferrer" className="ArtCredit">Background art created by Tab O'Neal</a>
+        </div>
         </div>
     );
 }
