@@ -23,7 +23,7 @@ function Footer() {
             </div>
         </div>
         <div>
-        <a href="" target='_blank' rel="noopener noreferrer" className="ArtCredit">Background art created by Tab O'Neal</a>
+        <a href="https://www.linkedin.com/in/taboneal/" target='_blank' rel="noopener noreferrer" className="ArtCredit">Background art created by Tab O'Neal</a>
         </div>
         </div>
     );

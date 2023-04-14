@@ -259,7 +259,7 @@ ul li:nth-child(5n) a {
 }
 
 .ArtCredit {
-  font-size: x-small;
+  font-size: small;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: black;
   text-decoration: none;
