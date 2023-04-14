@@ -1,4 +1,4 @@
-import pdf from '../assets/APResume2023.pdf';
+import pdf from '../assets/Resume2023.pdf';
 
 
 function Resume() {
